@@ -1,6 +1,8 @@
 # To-Do Application
 This application is a To-Do List Application using NodeJs and MongoDB.
 
+![image](https://github.com/Houshilian/To-Do-Application-MERN-Stack/blob/main/Show.png)
+
 ### User Requirements: 
 - As a user, I should be able to see all todo items fetched using a REST API.
 - As a user, I should be able to click a todo item and able to see its detailed view.

@@ -1,12 +1,30 @@
-# Assignment-9
-Full name: Shilian Hou
+# To-Do Application
+This application is a To-Do List Application using NodeJs and MongoDB.
 
-# Project Description:
-Todo React application is primarily created by Create-react-app, Nodejs, Reactjs, MongoDB, and SCSS, and use fetch API to fetch data from the Nodejs server from assignment 8.
+### User Requirements: 
+- As a user, I should be able to see all todo items fetched using a REST API.
+- As a user, I should be able to click a todo item and able to see its detailed view.
+- As a user, I should be able to open add a new todo item view by clicking the add button.
+- As a user, I should be able to add a todo item by entering the title, description, due date, and time.
+- As a user, I should be able to mark a todo item as complete.
 
-# Instructions:
-First, in each of the four fields, enter the "title", "description", "due date" and "time" of the Todo item, and click "submit" button.
+### Installation Instructions:
+Clone the repository to your local machine.
+Run the following commands to start the application :
 
-Then, Click on "All" to see all the to-do items extracted using the REST API. Click on "Incomplete" to see all the backlog items. Click "Completed" to view all completed to-do items. Click "remove done" to delete all completed to-do items.
+#### Client & Server
+```
+cd To-Do Application
 
-Finally, click the Item title to mark the to-do item as "completed". Hover mouse over the Item title and will see two buttons. Click the first button, and a detailed view of the project (description, due date, and time) will appear under the title. Click the second button and the item will be deleted.
+npm i
+
+npm run dev
+````
+
+### Technologies Used
+#### Front-end
+ - Javascript, ReactJS, SCSS
+ - Moment,ReChart
+#### Backend
+ - NodeJS, ExpressJS
+- MondoDB Atlas

@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         <header>
           <h1>
-            Assignment 9<span>todo</span>
+            To-Do <span> List</span>
           </h1>
         </header>
         <TodoList />
